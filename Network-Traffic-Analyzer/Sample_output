@@ -1,0 +1,57 @@
+#sample output
+
+Traffic Analyzer Tool
+1. Start Packet Capture
+2. View Traffic Analysis Report
+3. Exit
+Select an option: 1
+
+Available network interfaces:
+1. eth0
+2. wlan0
+Select an interface by number: 2
+
+Enter the number of packets to capture: 50
+Enter the timeout in seconds: 30
+Capturing 50 packets on interface: wlan0
+[Capturing packets...]
+
+Traffic analysis complete. View report with option 2.
+
+Network Traffic Analyzer Tool
+1. Start Packet Capture
+2. View Traffic Analysis Report
+3. Exit
+Select an option: 2
+
+--- Traffic Analysis Report ---
+
+Total Packets Captured: 50
+
+Protocol Breakdown:
+- TCP: 30 packets
+- UDP: 15 packets
+- ICMP: 5 packets
+
+Top Talkers:
+- 192.168.1.10 sent 20 packets
+- 192.168.1.5 received 18 packets
+
+Potential Issues Detected:
+- Unusual number of SYN packets from 192.168.1.100
+- High volume UDP traffic from 10.0.0.2 (Possible scanning)
+
+Packet Size Distribution:
+- Small packets (< 100 bytes): 10
+- Medium packets (100-500 bytes): 30
+- Large packets (> 500 bytes): 10
+
+End of Report
+
+Network Traffic Analyzer Tool
+1. Start Packet Capture
+2. View Traffic Analysis Report
+3. Exit
+Select an option: 3
+
+Exiting the program...
